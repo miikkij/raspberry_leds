@@ -30,7 +30,7 @@ def check_blinky_format():
 
 while True:
     check_blinky_format()
-    print "blinky_format: ", blinky_format
+    #print "blinky_format: ", blinky_format
     if blinky_format == 0: # Led is LID all the time
         green.value = 1;
         sleep(1)
